@@ -1,0 +1,4 @@
+# Denegado el acceso para cualquier usuario
+Order Allow,Deny
+Deny from All
+

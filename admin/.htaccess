@@ -1,0 +1,14 @@
+# Configuracion para Autenticación http básica
+AuthType Basic
+AuthName "Restricted Files"
+# Proveedor de la información de usuarios
+AuthBasicProvider file
+# Localizacion del fichero de usuarios validos con sus login y sus passwords
+AuthUserFile "/xampp/apache/conf/passwords"
+# Se permite autenticacion para multiples usuarios definidos en el archivo passwords
+Require valid-user
+
+
+
+
+

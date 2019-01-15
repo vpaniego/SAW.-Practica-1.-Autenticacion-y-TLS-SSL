@@ -1,0 +1,4 @@
+# Directiva requerida para que las peticiones se hagan por HTTPS
+SSLRequireSSL
+
+
